@@ -13,7 +13,7 @@ x)) Install Leo Build to run your private node and CLI WALLET
 Pick your folder to install leo node
 make leo
 cd /leo
-git clone https://github.com/thirdbrainsa/leo
+git clone https://github.com/thirdbrainsa/ThirdBrainCoin
 
 If you don't have git installed do a apt-get install git
 
@@ -34,8 +34,8 @@ then
 tape :
 
 screen -S daemon
-cd /leo/build/release/src
-./leod
+cd /thirdbraincoin/build/release/src
+./tbd
 
 Do a CTRL a+d after to detach the screen
 
