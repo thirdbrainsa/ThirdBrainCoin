@@ -10,9 +10,10 @@ You need to install classic lib to compile your code here :
 
 x)) Install Leo Build to run your private node and CLI WALLET
 
-Pick your folder to install leo node
-make leo
-cd /leo
+Pick your folder to install thirdbraincoin node :
+
+Go at the root of your server and do a :
+
 git clone https://github.com/thirdbrainsa/ThirdBrainCoin
 
 If you don't have git installed do a 
