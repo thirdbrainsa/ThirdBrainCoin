@@ -28,7 +28,11 @@ sudo apt-get install cmake build-essential libboost-all-dev
 
 x)) Build !
 
-To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
+Do a cd /ThirdBrainCoin
+
+To build, change to a directory where this file is located, and run `make`. 
+
+The resulting executables can be found in `build/release/src`.
 
 xx) Run the Daemon
 
