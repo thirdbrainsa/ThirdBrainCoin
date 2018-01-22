@@ -1,4 +1,4 @@
-## Building a Leo node and CLI WALLET 
+## Building a ThirdBrainCoin node and CLI WALLET 
 
 ### On *nix
 
