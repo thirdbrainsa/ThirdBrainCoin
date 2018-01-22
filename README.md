@@ -18,7 +18,7 @@ git clone https://github.com/thirdbrainsa/ThirdBrainCoin
 If you don't have git installed do a apt-get install git
 
 x)) Install dependencies
-
+apt-get update
 sudo apt-get install cmake build-essential libboost-all-dev 
 
 x)) Build !
