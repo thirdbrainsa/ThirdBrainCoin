@@ -1,3 +1,7 @@
+### WE ARE STILL IN ALPHA MODE !
+
+We are still testing different configuration. Only test purpose for the moment.
+
 ## Building a ThirdBrainCoin node and CLI WALLET 
 
 ### On *nix
