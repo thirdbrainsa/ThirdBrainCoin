@@ -1,17 +1,49 @@
-## Building Leo 
+## Building a Leo node and CLI WALLET 
 
 ### On *nix
 
 Dependencies: GCC 4.7.3 or later, CMake 2.8.6 or later, and Boost 1.55.
 
-You may download them from:
+#### Ubuntu 16.04 LTS The Trusty Tahr install instruction.
 
-* http://gcc.gnu.org/
-* http://www.cmake.org/
-* http://www.boost.org/
-* Alternatively, it may be possible to install them using a package manager.
+You need to install classic lib to compile your code here :
+
+x)) Install Leo Build to run your private node and CLI WALLET
+
+Pick your folder to install leo node
+make leo
+cd /leo
+git clone https://github.com/thirdbrainsa/leo
+
+If you don't have git installed do a apt-get install git
+
+x)) Install dependencies
+
+sudo apt-get install cmake build-essential libboost-all-dev 
+
+x)) Build !
 
 To build, change to a directory where this file is located, and run `make`. The resulting executables can be found in `build/release/src`.
+
+xx) Run the Daemon
+
+You have screen installed by defaut (apt-get install screen if you have not)
+
+then 
+
+tape :
+
+screen -S daemon
+cd /leo/build/release/src
+./leod
+
+Do a CTRL a+d after to detach the screen
+
+Do a screen -ls to list the screen
+
+Do a screen -r <ID> of the screen to re-enter in the screen and do a CRTL a+d to exit without closing the daemon
+  
+I prefer to run a deamon inside a screen but you can also launch it in the way you want.
 
 **Advanced options:**
 
