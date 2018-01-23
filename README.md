@@ -78,6 +78,11 @@ mkdir build
 cd build
 cmake -G "Visual Studio 12 Win64" ..
 ```
+### On MacOSx
+You will need to boost in any case using homebrew (install brew )
+then
+brew install boost
+and make.
 
 And then do Build.
 Good luck!
